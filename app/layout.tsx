@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./retro-menu.css";
 
 const siteUrl = "https://jumbos-hamburgers-tulsa.contact479101.chatgpt.site";
 

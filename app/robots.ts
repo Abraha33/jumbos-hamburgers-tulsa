@@ -1,10 +1,6 @@
-import type { MetadataRoute } from "next";
-
-const siteUrl = "https://jumbos-hamburgers-tulsa.contact479101.chatgpt.site";
+﻿import type { MetadataRoute } from "next";
+import { siteUrl } from "@/lib/site-data";
 
 export default function robots(): MetadataRoute.Robots {
-  return {
-    rules: { userAgent: "*", allow: "/" },
-    sitemap: `${siteUrl}/sitemap.xml`,
-  };
+  return { rules: { userAgent: "*", allow: "/" }, sitemap: `${siteUrl}/sitemap.xml`, host: siteUrl };
 }

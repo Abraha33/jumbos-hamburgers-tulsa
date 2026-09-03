@@ -1,0 +1,9 @@
+id,filename,category,subject,source_type,source_reference,ownership_or_license,truth_status,route,section,role,aspect_ratio,target_width_px,target_height_px,transparent_background,3d_layer,priority,approved,notes
+001,,brand,logo,restaurant-owned,,,VERIFIED,global,header,brand-mark,1:1,1024,1024,false,foreground,critical,false,
+002,,restaurant,exterior,restaurant-owned,,,VERIFIED,home,story,documentary,4:3,2400,1800,false,background,high,false,
+003,,restaurant,interior,restaurant-owned,,,VERIFIED,story,atmosphere,documentary,3:2,2400,1600,false,midground,medium,false,
+004,,food,signature-burger,restaurant-owned,,,VERIFIED,home,hero,conversion-hero,4:5,2400,3000,true,foreground,critical,false,
+005,,food,fries,restaurant-owned,,,VERIFIED,home,hero,supporting-food,4:5,2000,2500,true,foreground,high,false,
+006,,food,drink,restaurant-owned,,,VERIFIED,home,hero,supporting-food,4:5,2000,2500,true,foreground,high,false,
+007,,decorative,texture,ai-concept,,,INFERRED,global,background,decorative,1:1,2048,2048,false,background,low,false,Must not imply a real physical restaurant detail
+008,,3d,signature-burger,generated-3d,,,INFERRED,home,hero,webgl-model,n/a,0,0,true,foreground,high,false,Visual representation only unless modeled from approved product references
